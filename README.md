@@ -4,9 +4,9 @@ This library is used to launch an application on a specified controller.
 For example, open the app directly on the details of a news item
 
 ### Installation
-1 - Add library
-2 - Create URL Schemes
-3 - Edit file projectDelegate.m
+1 - Add library<br />
+2 - Create URL Schemes<br />
+3 - Edit file projectDelegate.m<br />
 4 - Create Router.plist
 
 ### Sample access
