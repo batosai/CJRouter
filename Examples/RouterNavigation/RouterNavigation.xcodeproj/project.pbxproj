@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F7443E415659C1400FEB5A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7443E315659C1400FEB5A9 /* UIKit.framework */; };
+		3F7443E615659C1400FEB5A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7443E515659C1400FEB5A9 /* Foundation.framework */; };
+		3F7443E815659C1400FEB5A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7443E715659C1400FEB5A9 /* CoreGraphics.framework */; };
+		3F7443EE15659C1400FEB5A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F7443EC15659C1400FEB5A9 /* InfoPlist.strings */; };
+		3F7443F015659C1400FEB5A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7443EF15659C1400FEB5A9 /* main.m */; };
+		3F7443F415659C1400FEB5A9 /* CJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7443F315659C1400FEB5A9 /* CJAppDelegate.m */; };
+		3F74441015659EF900FEB5A9 /* CJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7443FC15659CAD00FEB5A9 /* CJNavigationController.m */; };
+		3F74441115659EF900FEB5A9 /* CJView1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7443FE15659CAD00FEB5A9 /* CJView1Controller.m */; };
+		3F74441215659EF900FEB5A9 /* CJView2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F74440015659CAD00FEB5A9 /* CJView2Controller.m */; };
+		3F74441315659EF900FEB5A9 /* CJView3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F74440215659CAD00FEB5A9 /* CJView3Controller.m */; };
+		3F7444141565A3CD00FEB5A9 /* CJView3Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F74440315659CAD00FEB5A9 /* CJView3Controller.xib */; };
+		3F7444151565A3CD00FEB5A9 /* Routes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F74440415659CAD00FEB5A9 /* Routes.plist */; };
+		3F9FEE8915A4E34700C7BA65 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 3F9FEE8815A4E34700C7BA65 /* index.html */; };
+		3FBF254315A63B2800AEB3FF /* CJRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF254015A63B2800AEB3FF /* CJRoute.m */; };
+		3FBF254415A63B2800AEB3FF /* CJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF254215A63B2800AEB3FF /* CJRouter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F7443DF15659C1400FEB5A9 /* RouterNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouterNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7443E315659C1400FEB5A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F7443E515659C1400FEB5A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F7443E715659C1400FEB5A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F7443EB15659C1400FEB5A9 /* RouterNavigation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RouterNavigation-Info.plist"; sourceTree = "<group>"; };
+		3F7443ED15659C1400FEB5A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F7443EF15659C1400FEB5A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F7443F115659C1400FEB5A9 /* RouterNavigation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RouterNavigation-Prefix.pch"; sourceTree = "<group>"; };
+		3F7443F215659C1400FEB5A9 /* CJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJAppDelegate.h; sourceTree = "<group>"; };
+		3F7443F315659C1400FEB5A9 /* CJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJAppDelegate.m; sourceTree = "<group>"; };
+		3F7443FB15659CAD00FEB5A9 /* CJNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJNavigationController.h; sourceTree = "<group>"; };
+		3F7443FC15659CAD00FEB5A9 /* CJNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJNavigationController.m; sourceTree = "<group>"; };
+		3F7443FD15659CAD00FEB5A9 /* CJView1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJView1Controller.h; sourceTree = "<group>"; };
+		3F7443FE15659CAD00FEB5A9 /* CJView1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJView1Controller.m; sourceTree = "<group>"; };
+		3F7443FF15659CAD00FEB5A9 /* CJView2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJView2Controller.h; sourceTree = "<group>"; };
+		3F74440015659CAD00FEB5A9 /* CJView2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJView2Controller.m; sourceTree = "<group>"; };
+		3F74440115659CAD00FEB5A9 /* CJView3Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJView3Controller.h; sourceTree = "<group>"; };
+		3F74440215659CAD00FEB5A9 /* CJView3Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJView3Controller.m; sourceTree = "<group>"; };
+		3F74440315659CAD00FEB5A9 /* CJView3Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CJView3Controller.xib; sourceTree = "<group>"; };
+		3F74440415659CAD00FEB5A9 /* Routes.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Routes.plist; sourceTree = "<group>"; };
+		3F9FEE8815A4E34700C7BA65 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		3FBF253F15A63B2800AEB3FF /* CJRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJRoute.h; sourceTree = "<group>"; };
+		3FBF254015A63B2800AEB3FF /* CJRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJRoute.m; sourceTree = "<group>"; };
+		3FBF254115A63B2800AEB3FF /* CJRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJRouter.h; sourceTree = "<group>"; };
+		3FBF254215A63B2800AEB3FF /* CJRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJRouter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F7443DC15659C1400FEB5A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7443E415659C1400FEB5A9 /* UIKit.framework in Frameworks */,
+				3F7443E615659C1400FEB5A9 /* Foundation.framework in Frameworks */,
+				3F7443E815659C1400FEB5A9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7443D415659C1400FEB5A9 = {
+			isa = PBXGroup;
+			children = (
+				3F7443E915659C1400FEB5A9 /* RouterNavigation */,
+				3F7443E215659C1400FEB5A9 /* Frameworks */,
+				3F7443E015659C1400FEB5A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F7443E015659C1400FEB5A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F7443DF15659C1400FEB5A9 /* RouterNavigation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F7443E215659C1400FEB5A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F7443E315659C1400FEB5A9 /* UIKit.framework */,
+				3F7443E515659C1400FEB5A9 /* Foundation.framework */,
+				3F7443E715659C1400FEB5A9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F7443E915659C1400FEB5A9 /* RouterNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF253E15A63B2800AEB3FF /* CJRouter */,
+				3F9FEE8615A4E33D00C7BA65 /* Ressources */,
+				3F7443FA15659C9D00FEB5A9 /* Controllers */,
+				3F7443F215659C1400FEB5A9 /* CJAppDelegate.h */,
+				3F7443F315659C1400FEB5A9 /* CJAppDelegate.m */,
+				3F74440415659CAD00FEB5A9 /* Routes.plist */,
+				3F7443EA15659C1400FEB5A9 /* Supporting Files */,
+			);
+			path = RouterNavigation;
+			sourceTree = "<group>";
+		};
+		3F7443EA15659C1400FEB5A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F7443EB15659C1400FEB5A9 /* RouterNavigation-Info.plist */,
+				3F7443EC15659C1400FEB5A9 /* InfoPlist.strings */,
+				3F7443EF15659C1400FEB5A9 /* main.m */,
+				3F7443F115659C1400FEB5A9 /* RouterNavigation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F7443FA15659C9D00FEB5A9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F7443FB15659CAD00FEB5A9 /* CJNavigationController.h */,
+				3F7443FC15659CAD00FEB5A9 /* CJNavigationController.m */,
+				3F7443FD15659CAD00FEB5A9 /* CJView1Controller.h */,
+				3F7443FE15659CAD00FEB5A9 /* CJView1Controller.m */,
+				3F7443FF15659CAD00FEB5A9 /* CJView2Controller.h */,
+				3F74440015659CAD00FEB5A9 /* CJView2Controller.m */,
+				3F74440115659CAD00FEB5A9 /* CJView3Controller.h */,
+				3F74440215659CAD00FEB5A9 /* CJView3Controller.m */,
+				3F74440315659CAD00FEB5A9 /* CJView3Controller.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3F9FEE8615A4E33D00C7BA65 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				3F9FEE8815A4E34700C7BA65 /* index.html */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+		3FBF253E15A63B2800AEB3FF /* CJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF253F15A63B2800AEB3FF /* CJRoute.h */,
+				3FBF254015A63B2800AEB3FF /* CJRoute.m */,
+				3FBF254115A63B2800AEB3FF /* CJRouter.h */,
+				3FBF254215A63B2800AEB3FF /* CJRouter.m */,
+			);
+			name = CJRouter;
+			path = ../../../CJRouter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F7443DE15659C1400FEB5A9 /* RouterNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7443F715659C1400FEB5A9 /* Build configuration list for PBXNativeTarget "RouterNavigation" */;
+			buildPhases = (
+				3F7443DB15659C1400FEB5A9 /* Sources */,
+				3F7443DC15659C1400FEB5A9 /* Frameworks */,
+				3F7443DD15659C1400FEB5A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RouterNavigation;
+			productName = RouterNavigation;
+			productReference = 3F7443DF15659C1400FEB5A9 /* RouterNavigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F7443D615659C1400FEB5A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CJ;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Jérémy Chaufourier";
+			};
+			buildConfigurationList = 3F7443D915659C1400FEB5A9 /* Build configuration list for PBXProject "RouterNavigation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F7443D415659C1400FEB5A9;
+			productRefGroup = 3F7443E015659C1400FEB5A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F7443DE15659C1400FEB5A9 /* RouterNavigation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F7443DD15659C1400FEB5A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7444141565A3CD00FEB5A9 /* CJView3Controller.xib in Resources */,
+				3F7444151565A3CD00FEB5A9 /* Routes.plist in Resources */,
+				3F7443EE15659C1400FEB5A9 /* InfoPlist.strings in Resources */,
+				3F9FEE8915A4E34700C7BA65 /* index.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F7443DB15659C1400FEB5A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F74441015659EF900FEB5A9 /* CJNavigationController.m in Sources */,
+				3F74441115659EF900FEB5A9 /* CJView1Controller.m in Sources */,
+				3F74441215659EF900FEB5A9 /* CJView2Controller.m in Sources */,
+				3F74441315659EF900FEB5A9 /* CJView3Controller.m in Sources */,
+				3F7443F015659C1400FEB5A9 /* main.m in Sources */,
+				3F7443F415659C1400FEB5A9 /* CJAppDelegate.m in Sources */,
+				3FBF254315A63B2800AEB3FF /* CJRoute.m in Sources */,
+				3FBF254415A63B2800AEB3FF /* CJRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F7443EC15659C1400FEB5A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7443ED15659C1400FEB5A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F7443F515659C1400FEB5A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F7443F615659C1400FEB5A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F7443F815659C1400FEB5A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RouterNavigation/RouterNavigation-Prefix.pch";
+				INFOPLIST_FILE = "RouterNavigation/RouterNavigation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F7443F915659C1400FEB5A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RouterNavigation/RouterNavigation-Prefix.pch";
+				INFOPLIST_FILE = "RouterNavigation/RouterNavigation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F7443D915659C1400FEB5A9 /* Build configuration list for PBXProject "RouterNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7443F515659C1400FEB5A9 /* Debug */,
+				3F7443F615659C1400FEB5A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7443F715659C1400FEB5A9 /* Build configuration list for PBXNativeTarget "RouterNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7443F815659C1400FEB5A9 /* Debug */,
+				3F7443F915659C1400FEB5A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F7443D615659C1400FEB5A9 /* Project object */;
+}

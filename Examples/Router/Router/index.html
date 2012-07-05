@@ -1,0 +1,45 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <title>Redirect app</title>
+    <script type="text/javascript">
+
+    function testProtocolHandler(el)
+    {
+       if ("protocolLong" in el)
+       {
+           return false;
+       }
+       var ifr = document.getElementById("protocolTester");
+       try {
+           ifr.contentWindow.location = el.href;
+           window.setTimeout(function () {
+               try {
+                   //alert(ifr.contentWindow.location); 
+               } catch (e) { alert("Application is not installed"); }
+           }, 0);
+        } catch(e) {
+            if (e.name == "NS_ERROR_UNKNOWN_PROTOCOL") {
+                //alert("Application is not installed");
+            }
+        }
+        return false;
+    }
+    </script>
+    
+</head>
+
+<body>
+<a href="plop://view1" onclick="return testProtocolHandler(this);">plop://view1</a><br />
+<a href="router://view1" onclick="return testProtocolHandler(this);">router://view1</a><br />
+<a href="router://view2" onclick="return testProtocolHandler(this);">router://view2</a><br />
+<a href="router://view1?param=test" onclick="return testProtocolHandler(this);">router://view1?param=test</a><br />
+<a href="router://view1?param=test&param2=plop" onclick="return testProtocolHandler(this);">router://view1?param=test&param2=plop</a>
+<iframe id="protocolTester" style="display:none;" name="protocolTester" />​
+</body>
+</html>

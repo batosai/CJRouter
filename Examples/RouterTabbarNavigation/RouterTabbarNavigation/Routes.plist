@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Routes</key>
+	<dict>
+		<key>view1</key>
+		<dict>
+			<key>class</key>
+			<string>CJView1Controller</string>
+			<key>properties</key>
+			<dict>
+				<key>modalTransitionStyle</key>
+				<integer>1</integer>
+				<key>uid</key>
+				<integer>3</integer>
+			</dict>
+            <key>UITabBar</key>
+			<dict>
+				<key>index</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<key>view2</key>
+		<dict>
+			<key>method</key>
+			<dict>
+				<key>param1</key>
+				<dict>
+					<key>frame</key>
+					<string>{{10, 10}, {200, 25}}</string>
+				</dict>
+				<key>name</key>
+				<string>initWithDictionnary</string>
+			</dict>
+			<key>class</key>
+			<string>CJView2Controller</string>
+            <key>UITabBar</key>
+			<dict>
+				<key>index</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<key>view3</key>
+		<dict>
+			<key>class</key>
+			<string>CJView3Controller</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

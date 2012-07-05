@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F7444261565A47D00FEB5A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7444251565A47D00FEB5A9 /* UIKit.framework */; };
+		3F7444281565A47D00FEB5A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7444271565A47D00FEB5A9 /* Foundation.framework */; };
+		3F74442A1565A47D00FEB5A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7444291565A47D00FEB5A9 /* CoreGraphics.framework */; };
+		3F7444301565A47D00FEB5A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F74442E1565A47D00FEB5A9 /* InfoPlist.strings */; };
+		3F7444321565A47D00FEB5A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7444311565A47D00FEB5A9 /* main.m */; };
+		3F7444361565A47D00FEB5A9 /* CJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7444351565A47D00FEB5A9 /* CJAppDelegate.m */; };
+		3F74444C1565A4BE00FEB5A9 /* CJView1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7444451565A4AB00FEB5A9 /* CJView1Controller.m */; };
+		3F74444D1565A4BE00FEB5A9 /* CJView2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7444471565A4AB00FEB5A9 /* CJView2Controller.m */; };
+		3F74444E1565A4BE00FEB5A9 /* CJView3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7444491565A4AB00FEB5A9 /* CJView3Controller.m */; };
+		3F7444501565A4C500FEB5A9 /* Routes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F74444B1565A4AB00FEB5A9 /* Routes.plist */; };
+		3F7444531565A4FE00FEB5A9 /* CJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7444521565A4EA00FEB5A9 /* CJTabBarController.m */; };
+		3FBF254F15A63B5300AEB3FF /* CJRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF254C15A63B5300AEB3FF /* CJRoute.m */; };
+		3FBF255015A63B5300AEB3FF /* CJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF254E15A63B5300AEB3FF /* CJRouter.m */; };
+		3FF4180C156C25380044A241 /* CJView4Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4180B156C25380044A241 /* CJView4Controller.m */; };
+		3FF41810156C25470044A241 /* CJView5Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF4180F156C25470044A241 /* CJView5Controller.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F7444211565A47D00FEB5A9 /* RouterTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouterTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7444251565A47D00FEB5A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F7444271565A47D00FEB5A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F7444291565A47D00FEB5A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F74442D1565A47D00FEB5A9 /* RouterTabbar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RouterTabbar-Info.plist"; sourceTree = "<group>"; };
+		3F74442F1565A47D00FEB5A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F7444311565A47D00FEB5A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F7444331565A47D00FEB5A9 /* RouterTabbar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RouterTabbar-Prefix.pch"; sourceTree = "<group>"; };
+		3F7444341565A47D00FEB5A9 /* CJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJAppDelegate.h; sourceTree = "<group>"; };
+		3F7444351565A47D00FEB5A9 /* CJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJAppDelegate.m; sourceTree = "<group>"; };
+		3F7444441565A4AB00FEB5A9 /* CJView1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJView1Controller.h; sourceTree = "<group>"; };
+		3F7444451565A4AB00FEB5A9 /* CJView1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJView1Controller.m; sourceTree = "<group>"; };
+		3F7444461565A4AB00FEB5A9 /* CJView2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJView2Controller.h; sourceTree = "<group>"; };
+		3F7444471565A4AB00FEB5A9 /* CJView2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJView2Controller.m; sourceTree = "<group>"; };
+		3F7444481565A4AB00FEB5A9 /* CJView3Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJView3Controller.h; sourceTree = "<group>"; };
+		3F7444491565A4AB00FEB5A9 /* CJView3Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJView3Controller.m; sourceTree = "<group>"; };
+		3F74444B1565A4AB00FEB5A9 /* Routes.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Routes.plist; sourceTree = "<group>"; };
+		3F7444511565A4EA00FEB5A9 /* CJTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJTabBarController.h; sourceTree = "<group>"; };
+		3F7444521565A4EA00FEB5A9 /* CJTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJTabBarController.m; sourceTree = "<group>"; };
+		3FBF254B15A63B5300AEB3FF /* CJRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJRoute.h; sourceTree = "<group>"; };
+		3FBF254C15A63B5300AEB3FF /* CJRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJRoute.m; sourceTree = "<group>"; };
+		3FBF254D15A63B5300AEB3FF /* CJRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJRouter.h; sourceTree = "<group>"; };
+		3FBF254E15A63B5300AEB3FF /* CJRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJRouter.m; sourceTree = "<group>"; };
+		3FF4180A156C25380044A241 /* CJView4Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJView4Controller.h; sourceTree = "<group>"; };
+		3FF4180B156C25380044A241 /* CJView4Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJView4Controller.m; sourceTree = "<group>"; };
+		3FF4180E156C25470044A241 /* CJView5Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJView5Controller.h; sourceTree = "<group>"; };
+		3FF4180F156C25470044A241 /* CJView5Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJView5Controller.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F74441E1565A47D00FEB5A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7444261565A47D00FEB5A9 /* UIKit.framework in Frameworks */,
+				3F7444281565A47D00FEB5A9 /* Foundation.framework in Frameworks */,
+				3F74442A1565A47D00FEB5A9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7444161565A47C00FEB5A9 = {
+			isa = PBXGroup;
+			children = (
+				3F74442B1565A47D00FEB5A9 /* RouterTabbar */,
+				3F7444241565A47D00FEB5A9 /* Frameworks */,
+				3F7444221565A47D00FEB5A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F7444221565A47D00FEB5A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F7444211565A47D00FEB5A9 /* RouterTabbar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F7444241565A47D00FEB5A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F7444251565A47D00FEB5A9 /* UIKit.framework */,
+				3F7444271565A47D00FEB5A9 /* Foundation.framework */,
+				3F7444291565A47D00FEB5A9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F74442B1565A47D00FEB5A9 /* RouterTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF254A15A63B5300AEB3FF /* CJRouter */,
+				3F74443C1565A48100FEB5A9 /* Controllers */,
+				3F7444341565A47D00FEB5A9 /* CJAppDelegate.h */,
+				3F7444351565A47D00FEB5A9 /* CJAppDelegate.m */,
+				3F74444B1565A4AB00FEB5A9 /* Routes.plist */,
+				3F74442C1565A47D00FEB5A9 /* Supporting Files */,
+			);
+			path = RouterTabbar;
+			sourceTree = "<group>";
+		};
+		3F74442C1565A47D00FEB5A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F74442D1565A47D00FEB5A9 /* RouterTabbar-Info.plist */,
+				3F74442E1565A47D00FEB5A9 /* InfoPlist.strings */,
+				3F7444311565A47D00FEB5A9 /* main.m */,
+				3F7444331565A47D00FEB5A9 /* RouterTabbar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F74443C1565A48100FEB5A9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F7444511565A4EA00FEB5A9 /* CJTabBarController.h */,
+				3F7444521565A4EA00FEB5A9 /* CJTabBarController.m */,
+				3F7444441565A4AB00FEB5A9 /* CJView1Controller.h */,
+				3F7444451565A4AB00FEB5A9 /* CJView1Controller.m */,
+				3F7444461565A4AB00FEB5A9 /* CJView2Controller.h */,
+				3F7444471565A4AB00FEB5A9 /* CJView2Controller.m */,
+				3F7444481565A4AB00FEB5A9 /* CJView3Controller.h */,
+				3F7444491565A4AB00FEB5A9 /* CJView3Controller.m */,
+				3FF4180A156C25380044A241 /* CJView4Controller.h */,
+				3FF4180B156C25380044A241 /* CJView4Controller.m */,
+				3FF4180E156C25470044A241 /* CJView5Controller.h */,
+				3FF4180F156C25470044A241 /* CJView5Controller.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3FBF254A15A63B5300AEB3FF /* CJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF254B15A63B5300AEB3FF /* CJRoute.h */,
+				3FBF254C15A63B5300AEB3FF /* CJRoute.m */,
+				3FBF254D15A63B5300AEB3FF /* CJRouter.h */,
+				3FBF254E15A63B5300AEB3FF /* CJRouter.m */,
+			);
+			name = CJRouter;
+			path = ../../../CJRouter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F7444201565A47D00FEB5A9 /* RouterTabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7444391565A47D00FEB5A9 /* Build configuration list for PBXNativeTarget "RouterTabbar" */;
+			buildPhases = (
+				3F74441D1565A47D00FEB5A9 /* Sources */,
+				3F74441E1565A47D00FEB5A9 /* Frameworks */,
+				3F74441F1565A47D00FEB5A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RouterTabbar;
+			productName = RouterTabbar;
+			productReference = 3F7444211565A47D00FEB5A9 /* RouterTabbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F7444181565A47C00FEB5A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CJ;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Jérémy Chaufourier";
+			};
+			buildConfigurationList = 3F74441B1565A47C00FEB5A9 /* Build configuration list for PBXProject "RouterTabbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F7444161565A47C00FEB5A9;
+			productRefGroup = 3F7444221565A47D00FEB5A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F7444201565A47D00FEB5A9 /* RouterTabbar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F74441F1565A47D00FEB5A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7444501565A4C500FEB5A9 /* Routes.plist in Resources */,
+				3F7444301565A47D00FEB5A9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F74441D1565A47D00FEB5A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7444531565A4FE00FEB5A9 /* CJTabBarController.m in Sources */,
+				3F74444C1565A4BE00FEB5A9 /* CJView1Controller.m in Sources */,
+				3F74444D1565A4BE00FEB5A9 /* CJView2Controller.m in Sources */,
+				3F74444E1565A4BE00FEB5A9 /* CJView3Controller.m in Sources */,
+				3F7444321565A47D00FEB5A9 /* main.m in Sources */,
+				3F7444361565A47D00FEB5A9 /* CJAppDelegate.m in Sources */,
+				3FF4180C156C25380044A241 /* CJView4Controller.m in Sources */,
+				3FF41810156C25470044A241 /* CJView5Controller.m in Sources */,
+				3FBF254F15A63B5300AEB3FF /* CJRoute.m in Sources */,
+				3FBF255015A63B5300AEB3FF /* CJRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F74442E1565A47D00FEB5A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F74442F1565A47D00FEB5A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F7444371565A47D00FEB5A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F7444381565A47D00FEB5A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F74443A1565A47D00FEB5A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RouterTabbar/RouterTabbar-Prefix.pch";
+				INFOPLIST_FILE = "RouterTabbar/RouterTabbar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F74443B1565A47D00FEB5A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RouterTabbar/RouterTabbar-Prefix.pch";
+				INFOPLIST_FILE = "RouterTabbar/RouterTabbar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F74441B1565A47C00FEB5A9 /* Build configuration list for PBXProject "RouterTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7444371565A47D00FEB5A9 /* Debug */,
+				3F7444381565A47D00FEB5A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7444391565A47D00FEB5A9 /* Build configuration list for PBXNativeTarget "RouterTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F74443A1565A47D00FEB5A9 /* Debug */,
+				3F74443B1565A47D00FEB5A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F7444181565A47C00FEB5A9 /* Project object */;
+}
