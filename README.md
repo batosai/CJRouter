@@ -11,7 +11,7 @@ For example, open the app directly on the details of a news item
 
 ### Sample access
 
-myapp://view1
+myapp://view1<br />
 myapp://view1?param=hello
 
 ### 1 - Add library
@@ -20,12 +20,12 @@ Download CJRouter library and included in project.
 
 ### 2 - Create URL Schemes
 
-Step 1. Edit the info.plist
-Step 2. Right-Click and “Add Row”
-Step 3. Select “URL types” as the Key
-Step 4. Expand “Item 1″ and provide a value for the URL identifier. This can be any value, but the convention is to use a “reverse domain name” (ex “com.myapp”).
-Step 5. Add another row, this time to “Item 1″.
-Step 6. Select “URL Schemes” as the Key.
+Step 1. Edit the info.plist<br />
+Step 2. Right-Click and “Add Row”<br />
+Step 3. Select “URL types” as the Key<br />
+Step 4. Expand “Item 1″ and provide a value for the URL identifier. This can be any value, but the convention is to use a “reverse domain name” (ex “com.myapp”).<br />
+Step 5. Add another row, this time to “Item 1″.<br />
+Step 6. Select “URL Schemes” as the Key.<br />
 Step 7. Enter the characters that will become your URL scheme (e.g. “myapp://” would be “myapp”). It is possible for more than one scheme to be registered by adding to this section though that would be strange thing to do.
 
 ### 3 - File projectDelegate.m
@@ -80,6 +80,6 @@ Step 7. Enter the characters that will become your URL scheme (e.g. “myapp://�
 </plist>
 ```
 
-Creators
+### Creators
 [Jérémy Chaufourier](http://github.com/batosai)  
 [@chaufourier](https://twitter.com/chaufourier)
