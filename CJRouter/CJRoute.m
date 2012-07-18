@@ -85,7 +85,7 @@
     if ((properties = [_configs objectForKey:@"properties"]))
     {
         for (NSString * key in properties) {
-            [self setVarForvalue:[properties valueForKey:key] andForKey:key];
+            [self setVarForValue:[properties valueForKey:key] andForKey:key];
         }
     }
 }
@@ -103,12 +103,12 @@
             NSString * value = [[bits objectAtIndex:1] stringByReplacingPercentEscapesUsingEncoding:NSASCIIStringEncoding];
             [params setObject:value forKey:key];
 
-            [self setVarForvalue:value andForKey:key];
+            [self setVarForValue:value andForKey:key];
         }
     }
 }
 
--(void)setVarForvalue:(NSString*)value andForKey:(NSString*)key {
+-(void)setVarForValue:(NSString*)value andForKey:(NSString*)key {
     @try {
         [_controller setValue:value forKey:key];
     }
