@@ -71,40 +71,41 @@ Step 7. Enter the characters that will become your URL scheme (e.g. â€œmyapp://â
 </code></pre>
 
 <h3>4 - Create Router.plist - Sample</h3>
-<pre><code>
-<plist version="1.0">
-<dict>
-    <key>Routes</key>
-    <dict>
-        <key>view1</key>
-        <dict>
-            <key>class</key>
-            <string>CJView1Controller</string>
-            <key>properties</key>
-            <dict>
-                <key>modalTransitionStyle</key>
-                <integer>1</integer>
-                <key>uid</key>
-                <integer>3</integer>
-                <key>framestring</key>
-                <string>{{10, 10}, {200, 25}}</string>
-            </dict>
-        </dict>
-        <key>view2</key>
-        <dict>
-            <key>method</key>
-            <dict>
-                <key>param1</key>
-                <string>CJView2Controller</string>
-                <key>name</key>
-                <string>initWithNibName</string>
-            </dict>
-            <key>class</key>
-            <string>CJView2Controller</string>
-        </dict>
-    </dict>
-</dict>
-</plist>
+<pre><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;dict&gt;
+    &lt;key&gt;Routes&lt;/key&gt;
+    &lt;dict&gt;
+        &lt;key&gt;view1&lt;/key&gt;
+        &lt;dict&gt;
+            &lt;key&gt;class&lt;/key&gt;
+            &lt;string&gt;CJView1Controller&lt;/string&gt;
+            &lt;key&gt;properties&lt;/key&gt;
+            &lt;dict&gt;
+                &lt;key&gt;modalTransitionStyle&lt;/key&gt;
+                &lt;integer&gt;1&lt;/integer&gt;
+                &lt;key&gt;uid&lt;/key&gt;
+                &lt;integer&gt;3&lt;/integer&gt;
+                &lt;key&gt;framestring&lt;/key&gt;
+                &lt;string&gt;{{10, 10}, {200, 25}}&lt;/string&gt;
+            &lt;/dict&gt;
+        &lt;/dict&gt;
+        &lt;key&gt;view2&lt;/key&gt;
+        &lt;dict&gt;
+            &lt;key&gt;method&lt;/key&gt;
+            &lt;dict&gt;
+                &lt;key&gt;param1&lt;/key&gt;
+                &lt;string&gt;CJView2Controller&lt;/string&gt;
+                &lt;key&gt;name&lt;/key&gt;
+                &lt;string&gt;initWithNibName&lt;/string&gt;
+            &lt;/dict&gt;
+            &lt;key&gt;class&lt;/key&gt;
+            &lt;string&gt;CJView2Controller&lt;/string&gt;
+        &lt;/dict&gt;
+    &lt;/dict&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;
 </code></pre>
 
 <h3>Creators</h3>
