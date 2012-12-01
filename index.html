@@ -61,8 +61,7 @@ Step 7. Enter the characters that will become your URL scheme (e.g. â€œmyapp://â
 </p>
 
 <h3>3 - File projectDelegate.m</h3>
-<pre><code>
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+<pre><code>- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
 {
     [[CJRouter sharedCJRouter] setDelegate:self.window.rootViewController];
     [[CJRouter sharedCJRouter] launchControllerAtRoute:url];
@@ -72,8 +71,7 @@ Step 7. Enter the characters that will become your URL scheme (e.g. â€œmyapp://â
 </code></pre>
 
 <h3>4 - Create Router.plist - Sample</h3>
-<pre><code>
-  <?xml version="1.0" encoding="UTF-8"?>
+<pre><code><?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
