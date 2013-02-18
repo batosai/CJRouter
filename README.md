@@ -80,6 +80,12 @@ Step 7. Enter the characters that will become your URL scheme (e.g. “myapp://�
 </plist>
 ```
 
+### ARC
+
+If you are using CJRouter in your non-arc project, you will need to set a `-fno-objc-arc` compiler flag.
+
+To set a compiler flag in Xcode, go to your active target and select the "Build Phases" tab. Now select all CJRouter source files, press Enter, insert `-fno-objc-arc` and then "Done" to enable or disable ARC.
+
 ### Creators
 [Jérémy Chaufourier](http://github.com/batosai)  
 [@chaufourier](https://twitter.com/chaufourier)
