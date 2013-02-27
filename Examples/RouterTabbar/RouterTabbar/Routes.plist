@@ -12,7 +12,7 @@
 				<integer>0</integer>
 			</dict>
 			<key>class</key>
-			<string>CJView1Controller</string>
+			<string>View1Controller</string>
 			<key>properties</key>
 			<dict>
 				<key>modalTransitionStyle</key>
@@ -39,12 +39,12 @@
 				<string>initWithDictionnary</string>
 			</dict>
 			<key>class</key>
-			<string>CJView2Controller</string>
+			<string>View2Controller</string>
 		</dict>
 		<key>view3</key>
 		<dict>
 			<key>class</key>
-			<string>CJView3Controller</string>
+			<string>View3Controller</string>
 		</dict>
 		<key>view4</key>
 		<dict>
@@ -54,7 +54,7 @@
 				<integer>1</integer>
 			</dict>
 			<key>class</key>
-			<string>CJView4Controller</string>
+			<string>View4Controller</string>
 		</dict>
 		<key>view5</key>
 		<dict>
@@ -64,22 +64,22 @@
 				<integer>1</integer>
 			</dict>
 			<key>class</key>
-			<string>CJView5Controller</string>
+			<string>View5Controller</string>
 		</dict>
-        <key>view6</key>
+		<key>view6</key>
 		<dict>
 			<key>UITabBar</key>
 			<dict>
 				<key>index</key>
 				<integer>1</integer>
 			</dict>
-            <key>properties</key>
+			<key>properties</key>
 			<dict>
 				<key>index</key>
 				<integer>1</integer>
 			</dict>
 			<key>class</key>
-			<string>CJView2Controller</string>
+			<string>View2Controller</string>
 		</dict>
 	</dict>
 </dict>

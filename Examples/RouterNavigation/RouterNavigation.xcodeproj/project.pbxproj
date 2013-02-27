@@ -12,12 +12,12 @@
 		3F7443E815659C1400FEB5A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7443E715659C1400FEB5A9 /* CoreGraphics.framework */; };
 		3F7443EE15659C1400FEB5A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F7443EC15659C1400FEB5A9 /* InfoPlist.strings */; };
 		3F7443F015659C1400FEB5A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7443EF15659C1400FEB5A9 /* main.m */; };
-		3F7443F415659C1400FEB5A9 /* CJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7443F315659C1400FEB5A9 /* CJAppDelegate.m */; };
-		3F74441015659EF900FEB5A9 /* CJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7443FC15659CAD00FEB5A9 /* CJNavigationController.m */; };
-		3F74441115659EF900FEB5A9 /* CJView1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7443FE15659CAD00FEB5A9 /* CJView1Controller.m */; };
-		3F74441215659EF900FEB5A9 /* CJView2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F74440015659CAD00FEB5A9 /* CJView2Controller.m */; };
-		3F74441315659EF900FEB5A9 /* CJView3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F74440215659CAD00FEB5A9 /* CJView3Controller.m */; };
-		3F7444141565A3CD00FEB5A9 /* CJView3Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F74440315659CAD00FEB5A9 /* CJView3Controller.xib */; };
+		3F7443F415659C1400FEB5A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7443F315659C1400FEB5A9 /* AppDelegate.m */; };
+		3F74441015659EF900FEB5A9 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7443FC15659CAD00FEB5A9 /* NavigationController.m */; };
+		3F74441115659EF900FEB5A9 /* View1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7443FE15659CAD00FEB5A9 /* View1Controller.m */; };
+		3F74441215659EF900FEB5A9 /* View2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F74440015659CAD00FEB5A9 /* View2Controller.m */; };
+		3F74441315659EF900FEB5A9 /* View3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F74440215659CAD00FEB5A9 /* View3Controller.m */; };
+		3F7444141565A3CD00FEB5A9 /* View3Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F74440315659CAD00FEB5A9 /* View3Controller.xib */; };
 		3F7444151565A3CD00FEB5A9 /* Routes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F74440415659CAD00FEB5A9 /* Routes.plist */; };
 		3F9FEE8915A4E34700C7BA65 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 3F9FEE8815A4E34700C7BA65 /* index.html */; };
 		3FBF254315A63B2800AEB3FF /* CJRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF254015A63B2800AEB3FF /* CJRoute.m */; };
@@ -33,17 +33,17 @@
 		3F7443ED15659C1400FEB5A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F7443EF15659C1400FEB5A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F7443F115659C1400FEB5A9 /* RouterNavigation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RouterNavigation-Prefix.pch"; sourceTree = "<group>"; };
-		3F7443F215659C1400FEB5A9 /* CJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJAppDelegate.h; sourceTree = "<group>"; };
-		3F7443F315659C1400FEB5A9 /* CJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJAppDelegate.m; sourceTree = "<group>"; };
-		3F7443FB15659CAD00FEB5A9 /* CJNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJNavigationController.h; sourceTree = "<group>"; };
-		3F7443FC15659CAD00FEB5A9 /* CJNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJNavigationController.m; sourceTree = "<group>"; };
-		3F7443FD15659CAD00FEB5A9 /* CJView1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJView1Controller.h; sourceTree = "<group>"; };
-		3F7443FE15659CAD00FEB5A9 /* CJView1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJView1Controller.m; sourceTree = "<group>"; };
-		3F7443FF15659CAD00FEB5A9 /* CJView2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJView2Controller.h; sourceTree = "<group>"; };
-		3F74440015659CAD00FEB5A9 /* CJView2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJView2Controller.m; sourceTree = "<group>"; };
-		3F74440115659CAD00FEB5A9 /* CJView3Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJView3Controller.h; sourceTree = "<group>"; };
-		3F74440215659CAD00FEB5A9 /* CJView3Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJView3Controller.m; sourceTree = "<group>"; };
-		3F74440315659CAD00FEB5A9 /* CJView3Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CJView3Controller.xib; sourceTree = "<group>"; };
+		3F7443F215659C1400FEB5A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F7443F315659C1400FEB5A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F7443FB15659CAD00FEB5A9 /* NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		3F7443FC15659CAD00FEB5A9 /* NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		3F7443FD15659CAD00FEB5A9 /* View1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View1Controller.h; sourceTree = "<group>"; };
+		3F7443FE15659CAD00FEB5A9 /* View1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View1Controller.m; sourceTree = "<group>"; };
+		3F7443FF15659CAD00FEB5A9 /* View2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View2Controller.h; sourceTree = "<group>"; };
+		3F74440015659CAD00FEB5A9 /* View2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View2Controller.m; sourceTree = "<group>"; };
+		3F74440115659CAD00FEB5A9 /* View3Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View3Controller.h; sourceTree = "<group>"; };
+		3F74440215659CAD00FEB5A9 /* View3Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View3Controller.m; sourceTree = "<group>"; };
+		3F74440315659CAD00FEB5A9 /* View3Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View3Controller.xib; sourceTree = "<group>"; };
 		3F74440415659CAD00FEB5A9 /* Routes.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Routes.plist; sourceTree = "<group>"; };
 		3F9FEE8815A4E34700C7BA65 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		3FBF253F15A63B2800AEB3FF /* CJRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJRoute.h; sourceTree = "<group>"; };
@@ -99,8 +99,8 @@
 				3FBF253E15A63B2800AEB3FF /* CJRouter */,
 				3F9FEE8615A4E33D00C7BA65 /* Ressources */,
 				3F7443FA15659C9D00FEB5A9 /* Controllers */,
-				3F7443F215659C1400FEB5A9 /* CJAppDelegate.h */,
-				3F7443F315659C1400FEB5A9 /* CJAppDelegate.m */,
+				3F7443F215659C1400FEB5A9 /* AppDelegate.h */,
+				3F7443F315659C1400FEB5A9 /* AppDelegate.m */,
 				3F74440415659CAD00FEB5A9 /* Routes.plist */,
 				3F7443EA15659C1400FEB5A9 /* Supporting Files */,
 			);
@@ -121,15 +121,15 @@
 		3F7443FA15659C9D00FEB5A9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3F7443FB15659CAD00FEB5A9 /* CJNavigationController.h */,
-				3F7443FC15659CAD00FEB5A9 /* CJNavigationController.m */,
-				3F7443FD15659CAD00FEB5A9 /* CJView1Controller.h */,
-				3F7443FE15659CAD00FEB5A9 /* CJView1Controller.m */,
-				3F7443FF15659CAD00FEB5A9 /* CJView2Controller.h */,
-				3F74440015659CAD00FEB5A9 /* CJView2Controller.m */,
-				3F74440115659CAD00FEB5A9 /* CJView3Controller.h */,
-				3F74440215659CAD00FEB5A9 /* CJView3Controller.m */,
-				3F74440315659CAD00FEB5A9 /* CJView3Controller.xib */,
+				3F7443FB15659CAD00FEB5A9 /* NavigationController.h */,
+				3F7443FC15659CAD00FEB5A9 /* NavigationController.m */,
+				3F7443FD15659CAD00FEB5A9 /* View1Controller.h */,
+				3F7443FE15659CAD00FEB5A9 /* View1Controller.m */,
+				3F7443FF15659CAD00FEB5A9 /* View2Controller.h */,
+				3F74440015659CAD00FEB5A9 /* View2Controller.m */,
+				3F74440115659CAD00FEB5A9 /* View3Controller.h */,
+				3F74440215659CAD00FEB5A9 /* View3Controller.m */,
+				3F74440315659CAD00FEB5A9 /* View3Controller.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -206,7 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F7444141565A3CD00FEB5A9 /* CJView3Controller.xib in Resources */,
+				3F7444141565A3CD00FEB5A9 /* View3Controller.xib in Resources */,
 				3F7444151565A3CD00FEB5A9 /* Routes.plist in Resources */,
 				3F7443EE15659C1400FEB5A9 /* InfoPlist.strings in Resources */,
 				3F9FEE8915A4E34700C7BA65 /* index.html in Resources */,
@@ -220,12 +220,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F74441015659EF900FEB5A9 /* CJNavigationController.m in Sources */,
-				3F74441115659EF900FEB5A9 /* CJView1Controller.m in Sources */,
-				3F74441215659EF900FEB5A9 /* CJView2Controller.m in Sources */,
-				3F74441315659EF900FEB5A9 /* CJView3Controller.m in Sources */,
+				3F74441015659EF900FEB5A9 /* NavigationController.m in Sources */,
+				3F74441115659EF900FEB5A9 /* View1Controller.m in Sources */,
+				3F74441215659EF900FEB5A9 /* View2Controller.m in Sources */,
+				3F74441315659EF900FEB5A9 /* View3Controller.m in Sources */,
 				3F7443F015659C1400FEB5A9 /* main.m in Sources */,
-				3F7443F415659C1400FEB5A9 /* CJAppDelegate.m in Sources */,
+				3F7443F415659C1400FEB5A9 /* AppDelegate.m in Sources */,
 				3FBF254315A63B2800AEB3FF /* CJRoute.m in Sources */,
 				3FBF254415A63B2800AEB3FF /* CJRouter.m in Sources */,
 			);

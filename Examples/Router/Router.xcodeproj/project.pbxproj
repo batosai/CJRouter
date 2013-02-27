@@ -12,15 +12,15 @@
 		3F33FD5F1555B99400F1AC5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F33FD5E1555B99400F1AC5B /* CoreGraphics.framework */; };
 		3F33FD651555B99500F1AC5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F33FD631555B99500F1AC5B /* InfoPlist.strings */; };
 		3F33FD671555B99500F1AC5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F33FD661555B99500F1AC5B /* main.m */; };
-		3F33FD6B1555B99500F1AC5B /* CJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F33FD6A1555B99500F1AC5B /* CJAppDelegate.m */; };
-		3F33FD751555BA5000F1AC5B /* CJRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F33FD741555BA5000F1AC5B /* CJRootViewController.m */; };
-		3F33FD831555BFEB00F1AC5B /* CJView1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F33FD821555BFEB00F1AC5B /* CJView1Controller.m */; };
+		3F33FD6B1555B99500F1AC5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F33FD6A1555B99500F1AC5B /* AppDelegate.m */; };
+		3F33FD751555BA5000F1AC5B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F33FD741555BA5000F1AC5B /* RootViewController.m */; };
+		3F33FD831555BFEB00F1AC5B /* View1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F33FD821555BFEB00F1AC5B /* View1Controller.m */; };
 		3F33FD8A1555C79300F1AC5B /* Routes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F33FD891555C79300F1AC5B /* Routes.plist */; };
-		3F33FDC21559C37000F1AC5B /* CJView2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F33FDC11559C37000F1AC5B /* CJView2Controller.m */; };
-		3F33FDDE155B103900F1AC5B /* CJView3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F33FDDC155B103900F1AC5B /* CJView3Controller.m */; };
-		3F33FDDF155B103900F1AC5B /* CJView3Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F33FDDD155B103900F1AC5B /* CJView3Controller.xib */; };
-		3F33FDE6155C5D2000F1AC5B /* CJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F33FDE5155C5D2000F1AC5B /* CJTabBarController.m */; };
-		3F9EF96B156438BC006385C6 /* CJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9EF96A156438BC006385C6 /* CJNavigationController.m */; };
+		3F33FDC21559C37000F1AC5B /* View2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F33FDC11559C37000F1AC5B /* View2Controller.m */; };
+		3F33FDDE155B103900F1AC5B /* View3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F33FDDC155B103900F1AC5B /* View3Controller.m */; };
+		3F33FDDF155B103900F1AC5B /* View3Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F33FDDD155B103900F1AC5B /* View3Controller.xib */; };
+		3F33FDE6155C5D2000F1AC5B /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F33FDE5155C5D2000F1AC5B /* TabBarController.m */; };
+		3F9EF96B156438BC006385C6 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9EF96A156438BC006385C6 /* NavigationController.m */; };
 		3F9FEE8115A4E06600C7BA65 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 3F9FEE8015A4E06600C7BA65 /* index.html */; };
 		3FBF253715A63B0C00AEB3FF /* CJRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF253415A63B0C00AEB3FF /* CJRoute.m */; };
 		3FBF253815A63B0C00AEB3FF /* CJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF253615A63B0C00AEB3FF /* CJRouter.m */; };
@@ -35,22 +35,22 @@
 		3F33FD641555B99500F1AC5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F33FD661555B99500F1AC5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F33FD681555B99500F1AC5B /* Router-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Router-Prefix.pch"; sourceTree = "<group>"; };
-		3F33FD691555B99500F1AC5B /* CJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJAppDelegate.h; sourceTree = "<group>"; };
-		3F33FD6A1555B99500F1AC5B /* CJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJAppDelegate.m; sourceTree = "<group>"; };
-		3F33FD731555BA5000F1AC5B /* CJRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJRootViewController.h; sourceTree = "<group>"; };
-		3F33FD741555BA5000F1AC5B /* CJRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJRootViewController.m; sourceTree = "<group>"; };
-		3F33FD811555BFEB00F1AC5B /* CJView1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJView1Controller.h; sourceTree = "<group>"; };
-		3F33FD821555BFEB00F1AC5B /* CJView1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJView1Controller.m; sourceTree = "<group>"; };
+		3F33FD691555B99500F1AC5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F33FD6A1555B99500F1AC5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F33FD731555BA5000F1AC5B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3F33FD741555BA5000F1AC5B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3F33FD811555BFEB00F1AC5B /* View1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View1Controller.h; sourceTree = "<group>"; };
+		3F33FD821555BFEB00F1AC5B /* View1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View1Controller.m; sourceTree = "<group>"; };
 		3F33FD891555C79300F1AC5B /* Routes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Routes.plist; sourceTree = "<group>"; };
-		3F33FDC01559C37000F1AC5B /* CJView2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJView2Controller.h; sourceTree = "<group>"; };
-		3F33FDC11559C37000F1AC5B /* CJView2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJView2Controller.m; sourceTree = "<group>"; };
-		3F33FDDB155B103900F1AC5B /* CJView3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJView3Controller.h; sourceTree = "<group>"; };
-		3F33FDDC155B103900F1AC5B /* CJView3Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJView3Controller.m; sourceTree = "<group>"; };
-		3F33FDDD155B103900F1AC5B /* CJView3Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CJView3Controller.xib; sourceTree = "<group>"; };
-		3F33FDE4155C5D2000F1AC5B /* CJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJTabBarController.h; sourceTree = "<group>"; };
-		3F33FDE5155C5D2000F1AC5B /* CJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJTabBarController.m; sourceTree = "<group>"; };
-		3F9EF969156438BC006385C6 /* CJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJNavigationController.h; sourceTree = "<group>"; };
-		3F9EF96A156438BC006385C6 /* CJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJNavigationController.m; sourceTree = "<group>"; };
+		3F33FDC01559C37000F1AC5B /* View2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View2Controller.h; sourceTree = "<group>"; };
+		3F33FDC11559C37000F1AC5B /* View2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View2Controller.m; sourceTree = "<group>"; };
+		3F33FDDB155B103900F1AC5B /* View3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View3Controller.h; sourceTree = "<group>"; };
+		3F33FDDC155B103900F1AC5B /* View3Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View3Controller.m; sourceTree = "<group>"; };
+		3F33FDDD155B103900F1AC5B /* View3Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View3Controller.xib; sourceTree = "<group>"; };
+		3F33FDE4155C5D2000F1AC5B /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		3F33FDE5155C5D2000F1AC5B /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		3F9EF969156438BC006385C6 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		3F9EF96A156438BC006385C6 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		3F9FEE8015A4E06600C7BA65 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		3FBF253315A63B0C00AEB3FF /* CJRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJRoute.h; sourceTree = "<group>"; };
 		3FBF253415A63B0C00AEB3FF /* CJRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJRoute.m; sourceTree = "<group>"; };
@@ -105,8 +105,8 @@
 				3FBF253215A63B0C00AEB3FF /* CJRouter */,
 				3F9FEE7F15A4E00000C7BA65 /* Ressources */,
 				3F33FD721555BA0F00F1AC5B /* Controllers */,
-				3F33FD691555B99500F1AC5B /* CJAppDelegate.h */,
-				3F33FD6A1555B99500F1AC5B /* CJAppDelegate.m */,
+				3F33FD691555B99500F1AC5B /* AppDelegate.h */,
+				3F33FD6A1555B99500F1AC5B /* AppDelegate.m */,
 				3F33FD891555C79300F1AC5B /* Routes.plist */,
 				3F33FD611555B99500F1AC5B /* Supporting Files */,
 			);
@@ -127,19 +127,19 @@
 		3F33FD721555BA0F00F1AC5B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3F33FD731555BA5000F1AC5B /* CJRootViewController.h */,
-				3F33FD741555BA5000F1AC5B /* CJRootViewController.m */,
-				3F33FD811555BFEB00F1AC5B /* CJView1Controller.h */,
-				3F33FD821555BFEB00F1AC5B /* CJView1Controller.m */,
-				3F33FDC01559C37000F1AC5B /* CJView2Controller.h */,
-				3F33FDC11559C37000F1AC5B /* CJView2Controller.m */,
-				3F33FDDB155B103900F1AC5B /* CJView3Controller.h */,
-				3F33FDDC155B103900F1AC5B /* CJView3Controller.m */,
-				3F33FDDD155B103900F1AC5B /* CJView3Controller.xib */,
-				3F33FDE4155C5D2000F1AC5B /* CJTabBarController.h */,
-				3F33FDE5155C5D2000F1AC5B /* CJTabBarController.m */,
-				3F9EF969156438BC006385C6 /* CJNavigationController.h */,
-				3F9EF96A156438BC006385C6 /* CJNavigationController.m */,
+				3F33FD731555BA5000F1AC5B /* RootViewController.h */,
+				3F33FD741555BA5000F1AC5B /* RootViewController.m */,
+				3F33FD811555BFEB00F1AC5B /* View1Controller.h */,
+				3F33FD821555BFEB00F1AC5B /* View1Controller.m */,
+				3F33FDC01559C37000F1AC5B /* View2Controller.h */,
+				3F33FDC11559C37000F1AC5B /* View2Controller.m */,
+				3F33FDDB155B103900F1AC5B /* View3Controller.h */,
+				3F33FDDC155B103900F1AC5B /* View3Controller.m */,
+				3F33FDDD155B103900F1AC5B /* View3Controller.xib */,
+				3F33FDE4155C5D2000F1AC5B /* TabBarController.h */,
+				3F33FDE5155C5D2000F1AC5B /* TabBarController.m */,
+				3F9EF969156438BC006385C6 /* NavigationController.h */,
+				3F9EF96A156438BC006385C6 /* NavigationController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -218,7 +218,7 @@
 			files = (
 				3F33FD651555B99500F1AC5B /* InfoPlist.strings in Resources */,
 				3F33FD8A1555C79300F1AC5B /* Routes.plist in Resources */,
-				3F33FDDF155B103900F1AC5B /* CJView3Controller.xib in Resources */,
+				3F33FDDF155B103900F1AC5B /* View3Controller.xib in Resources */,
 				3F9FEE8115A4E06600C7BA65 /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,13 +231,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F33FD671555B99500F1AC5B /* main.m in Sources */,
-				3F33FD6B1555B99500F1AC5B /* CJAppDelegate.m in Sources */,
-				3F33FD751555BA5000F1AC5B /* CJRootViewController.m in Sources */,
-				3F33FD831555BFEB00F1AC5B /* CJView1Controller.m in Sources */,
-				3F33FDC21559C37000F1AC5B /* CJView2Controller.m in Sources */,
-				3F33FDDE155B103900F1AC5B /* CJView3Controller.m in Sources */,
-				3F33FDE6155C5D2000F1AC5B /* CJTabBarController.m in Sources */,
-				3F9EF96B156438BC006385C6 /* CJNavigationController.m in Sources */,
+				3F33FD6B1555B99500F1AC5B /* AppDelegate.m in Sources */,
+				3F33FD751555BA5000F1AC5B /* RootViewController.m in Sources */,
+				3F33FD831555BFEB00F1AC5B /* View1Controller.m in Sources */,
+				3F33FDC21559C37000F1AC5B /* View2Controller.m in Sources */,
+				3F33FDDE155B103900F1AC5B /* View3Controller.m in Sources */,
+				3F33FDE6155C5D2000F1AC5B /* TabBarController.m in Sources */,
+				3F9EF96B156438BC006385C6 /* NavigationController.m in Sources */,
 				3FBF253715A63B0C00AEB3FF /* CJRoute.m in Sources */,
 				3FBF253815A63B0C00AEB3FF /* CJRouter.m in Sources */,
 			);
