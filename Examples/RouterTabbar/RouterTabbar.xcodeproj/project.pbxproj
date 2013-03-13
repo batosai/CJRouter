@@ -71,7 +71,7 @@
 		3F7444161565A47C00FEB5A9 = {
 			isa = PBXGroup;
 			children = (
-				3F74442B1565A47D00FEB5A9 /* RouterTabbar */,
+				3F74442B1565A47D00FEB5A9 /* Classes */,
 				3F7444241565A47D00FEB5A9 /* Frameworks */,
 				3F7444221565A47D00FEB5A9 /* Products */,
 			);
@@ -95,17 +95,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3F74442B1565A47D00FEB5A9 /* RouterTabbar */ = {
+		3F74442B1565A47D00FEB5A9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3FBF254A15A63B5300AEB3FF /* CJRouter */,
 				3F74443C1565A48100FEB5A9 /* Controllers */,
+				3FCD81E016F13DAB0070F727 /* Vendor */,
 				3F7444341565A47D00FEB5A9 /* AppDelegate.h */,
 				3F7444351565A47D00FEB5A9 /* AppDelegate.m */,
 				3F74444B1565A4AB00FEB5A9 /* Routes.plist */,
 				3F74442C1565A47D00FEB5A9 /* Supporting Files */,
 			);
-			path = RouterTabbar;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		3F74442C1565A47D00FEB5A9 /* Supporting Files */ = {
@@ -148,6 +148,14 @@
 			);
 			name = CJRouter;
 			path = ../../../CJRouter;
+			sourceTree = "<group>";
+		};
+		3FCD81E016F13DAB0070F727 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF254A15A63B5300AEB3FF /* CJRouter */,
+			);
+			name = Vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,8 +298,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RouterTabbar/RouterTabbar-Prefix.pch";
-				INFOPLIST_FILE = "RouterTabbar/RouterTabbar-Info.plist";
+				GCC_PREFIX_HEADER = "Classes/RouterTabbar-Prefix.pch";
+				INFOPLIST_FILE = "Classes/RouterTabbar-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -301,8 +309,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RouterTabbar/RouterTabbar-Prefix.pch";
-				INFOPLIST_FILE = "RouterTabbar/RouterTabbar-Info.plist";
+				GCC_PREFIX_HEADER = "Classes/RouterTabbar-Prefix.pch";
+				INFOPLIST_FILE = "Classes/RouterTabbar-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

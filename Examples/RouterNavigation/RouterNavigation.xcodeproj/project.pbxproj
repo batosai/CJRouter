@@ -19,9 +19,9 @@
 		3F74441315659EF900FEB5A9 /* View3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F74440215659CAD00FEB5A9 /* View3Controller.m */; };
 		3F7444141565A3CD00FEB5A9 /* View3Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F74440315659CAD00FEB5A9 /* View3Controller.xib */; };
 		3F7444151565A3CD00FEB5A9 /* Routes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F74440415659CAD00FEB5A9 /* Routes.plist */; };
-		3F9FEE8915A4E34700C7BA65 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 3F9FEE8815A4E34700C7BA65 /* index.html */; };
 		3FBF254315A63B2800AEB3FF /* CJRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF254015A63B2800AEB3FF /* CJRoute.m */; };
 		3FBF254415A63B2800AEB3FF /* CJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF254215A63B2800AEB3FF /* CJRouter.m */; };
+		3FCD81E516F140E00070F727 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 3FCD81E416F140E00070F727 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,11 +45,11 @@
 		3F74440215659CAD00FEB5A9 /* View3Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View3Controller.m; sourceTree = "<group>"; };
 		3F74440315659CAD00FEB5A9 /* View3Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View3Controller.xib; sourceTree = "<group>"; };
 		3F74440415659CAD00FEB5A9 /* Routes.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Routes.plist; sourceTree = "<group>"; };
-		3F9FEE8815A4E34700C7BA65 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		3FBF253F15A63B2800AEB3FF /* CJRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJRoute.h; sourceTree = "<group>"; };
 		3FBF254015A63B2800AEB3FF /* CJRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJRoute.m; sourceTree = "<group>"; };
 		3FBF254115A63B2800AEB3FF /* CJRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJRouter.h; sourceTree = "<group>"; };
 		3FBF254215A63B2800AEB3FF /* CJRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJRouter.m; sourceTree = "<group>"; };
+		3FCD81E416F140E00070F727 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = Classes/index.html; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,8 @@
 		3F7443D415659C1400FEB5A9 = {
 			isa = PBXGroup;
 			children = (
-				3F7443E915659C1400FEB5A9 /* RouterNavigation */,
+				3F9FEE8615A4E33D00C7BA65 /* Ressources */,
+				3F7443E915659C1400FEB5A9 /* Classes */,
 				3F7443E215659C1400FEB5A9 /* Frameworks */,
 				3F7443E015659C1400FEB5A9 /* Products */,
 			);
@@ -93,18 +94,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3F7443E915659C1400FEB5A9 /* RouterNavigation */ = {
+		3F7443E915659C1400FEB5A9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3FBF253E15A63B2800AEB3FF /* CJRouter */,
-				3F9FEE8615A4E33D00C7BA65 /* Ressources */,
 				3F7443FA15659C9D00FEB5A9 /* Controllers */,
+				3FCD81DF16F13D640070F727 /* Vendor */,
 				3F7443F215659C1400FEB5A9 /* AppDelegate.h */,
 				3F7443F315659C1400FEB5A9 /* AppDelegate.m */,
 				3F74440415659CAD00FEB5A9 /* Routes.plist */,
 				3F7443EA15659C1400FEB5A9 /* Supporting Files */,
 			);
-			path = RouterNavigation;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		3F7443EA15659C1400FEB5A9 /* Supporting Files */ = {
@@ -137,9 +137,10 @@
 		3F9FEE8615A4E33D00C7BA65 /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
-				3F9FEE8815A4E34700C7BA65 /* index.html */,
+				3FCD81E416F140E00070F727 /* index.html */,
 			);
 			name = Ressources;
+			path = RouterNavigation;
 			sourceTree = "<group>";
 		};
 		3FBF253E15A63B2800AEB3FF /* CJRouter */ = {
@@ -152,6 +153,14 @@
 			);
 			name = CJRouter;
 			path = ../../../CJRouter;
+			sourceTree = "<group>";
+		};
+		3FCD81DF16F13D640070F727 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF253E15A63B2800AEB3FF /* CJRouter */,
+			);
+			name = Vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,7 +218,7 @@
 				3F7444141565A3CD00FEB5A9 /* View3Controller.xib in Resources */,
 				3F7444151565A3CD00FEB5A9 /* Routes.plist in Resources */,
 				3F7443EE15659C1400FEB5A9 /* InfoPlist.strings in Resources */,
-				3F9FEE8915A4E34700C7BA65 /* index.html in Resources */,
+				3FCD81E516F140E00070F727 /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,8 +303,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RouterNavigation/RouterNavigation-Prefix.pch";
-				INFOPLIST_FILE = "RouterNavigation/RouterNavigation-Info.plist";
+				GCC_PREFIX_HEADER = "Classes/RouterNavigation-Prefix.pch";
+				INFOPLIST_FILE = "Classes/RouterNavigation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -305,8 +314,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RouterNavigation/RouterNavigation-Prefix.pch";
-				INFOPLIST_FILE = "RouterNavigation/RouterNavigation-Info.plist";
+				GCC_PREFIX_HEADER = "Classes/RouterNavigation-Prefix.pch";
+				INFOPLIST_FILE = "Classes/RouterNavigation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

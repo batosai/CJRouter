@@ -21,6 +21,7 @@
 		3F702F3D1573D83400412CD7 /* Navigation2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F702F3C1573D83400412CD7 /* Navigation2Controller.m */; };
 		3FBF258A15A63B8C00AEB3FF /* CJRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF258715A63B8C00AEB3FF /* CJRoute.m */; };
 		3FBF258B15A63B8C00AEB3FF /* CJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF258915A63B8C00AEB3FF /* CJRouter.m */; };
+		3FCD81E716F140FE0070F727 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 3FCD81E616F140FE0070F727 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		3FBF258715A63B8C00AEB3FF /* CJRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJRoute.m; sourceTree = "<group>"; };
 		3FBF258815A63B8C00AEB3FF /* CJRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJRouter.h; sourceTree = "<group>"; };
 		3FBF258915A63B8C00AEB3FF /* CJRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJRouter.m; sourceTree = "<group>"; };
+		3FCD81E616F140FE0070F727 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = index.html; path = ../RouterNavigation/Classes/index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +70,8 @@
 		3F5560FA156D80A400B620D9 = {
 			isa = PBXGroup;
 			children = (
-				3F55610F156D80A400B620D9 /* RouterTabbarNavigation */,
+				3FCD81E616F140FE0070F727 /* index.html */,
+				3F55610F156D80A400B620D9 /* Classes */,
 				3F556108156D80A400B620D9 /* Frameworks */,
 				3F556106156D80A400B620D9 /* Products */,
 			);
@@ -92,17 +95,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3F55610F156D80A400B620D9 /* RouterTabbarNavigation */ = {
+		3F55610F156D80A400B620D9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3FBF258515A63B8C00AEB3FF /* CJRouter */,
 				3F55612A156D80DA00B620D9 /* Controllers */,
+				3FCD81E116F13DC40070F727 /* Vendor */,
 				3F556118156D80A400B620D9 /* AppDelegate.h */,
 				3F556119156D80A400B620D9 /* AppDelegate.m */,
 				3F556129156D80D400B620D9 /* Routes.plist */,
 				3F556110156D80A400B620D9 /* Supporting Files */,
 			);
-			path = RouterTabbarNavigation;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		3F556110156D80A400B620D9 /* Supporting Files */ = {
@@ -143,6 +146,14 @@
 			);
 			name = CJRouter;
 			path = ../../../CJRouter;
+			sourceTree = "<group>";
+		};
+		3FCD81E116F13DC40070F727 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF258515A63B8C00AEB3FF /* CJRouter */,
+			);
+			name = Vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCD81E716F140FE0070F727 /* index.html in Resources */,
 				3F556114156D80A400B620D9 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,8 +296,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RouterTabbarNavigation/RouterTabbarNavigation-Prefix.pch";
-				INFOPLIST_FILE = "RouterTabbarNavigation/RouterTabbarNavigation-Info.plist";
+				GCC_PREFIX_HEADER = "Classes/RouterTabbarNavigation-Prefix.pch";
+				INFOPLIST_FILE = "Classes/RouterTabbarNavigation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -295,8 +307,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RouterTabbarNavigation/RouterTabbarNavigation-Prefix.pch";
-				INFOPLIST_FILE = "RouterTabbarNavigation/RouterTabbarNavigation-Info.plist";
+				GCC_PREFIX_HEADER = "Classes/RouterTabbarNavigation-Prefix.pch";
+				INFOPLIST_FILE = "Classes/RouterTabbarNavigation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
