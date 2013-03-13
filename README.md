@@ -80,6 +80,15 @@ Step 7. Enter the characters that will become your URL scheme (e.g. â€œmyapp://â
 </plist>
 ```
 
+### SMART BANNER
+
+Consult [apple doc](http://developer.apple.com/library/ios/#documentation/AppleApplications/Reference/SafariWebContent/PromotingAppswithAppBanners/PromotingAppswithAppBanners.html) for use smart banner with CJRouter
+
+example :
+```xml
+<meta name="apple-itunes-app" content="app-id=myAppStoreID, app-argument=myapp://view1?param=hello" />
+```
+
 ### ARC
 
 If you are using CJRouter in your non-arc project, you will need to set a `-fno-objc-arc` compiler flag.
